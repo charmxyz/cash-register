@@ -12,14 +12,50 @@
     <div id="game">
         <p id="text">Enter cash from customer:</p>
         <div id="input-group">
-            <input id="user-input">
+            <input id="cash">
             <div id="buttons">
-                <button id="check-btn">Purchase</button>
-                <button id="clear-btn">Clear</button>
+                <button id="purchase-btn">Purchase</button>
+                <button id="restart-btn">Restart</button>
             </div>
         </div>
     </div>
-    <div id="results-div"></div>
+    <div id="total-price-text">
+        <h4>Total Price: $3.26</h4>
+    </div>
+    <div id="cash-and-change">
+        <div id="change-drawer">
+            <div>
+                <h4>Cash in Drawer:</h4>
+                <div id="cash-in-drawer">
+                    <div id="change-drawer-text">
+                        <p><span>Pennies:</span> $ <span id="pennies">1.01</span></p>
+                        <p><span>Nickels:</span> $ <span id="nickels">2.05</span></p>
+                        <p><span>Dimes:</span> $ <span id="dimes">3.1</span></p>
+                        <p><span>Quarters:</span> $ <span id="quarters">4.25</span></p>
+                        <p><span>Ones:</span> $ <span id="ones">90</span></p>
+                        <p><span>Fives:</span> $ <span id="fives">55</span></p>
+                        <p><span>Tens:</span> $ <span id="tens">20</span></p>
+                        <p><span>Twenties:</span> $ <span id="twenties">60</span></p>
+                        <p><span>Hundreds:</span> $ <span id="hundreds">100</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="change-due">
+            <h4>Change Due:</h4>
+            <div id="change-due-text">
+                <p><span>Pennies:</span> 1</p>
+                <p><span>Nickels:</span> 0</p>
+                <p><span>Dimes:</span> 1</p>
+                <p><span>Quarters:</span> 1</p>
+                <p><span>Ones:</span> 1</p>
+                <p><span>Fives:</span> 0</p>
+                <p><span>Tens:</span> 0</p>
+                <p><span>Twenties:</span> 0</p>
+                <p><span>Hundreds:</span> 0</p>
+            </div>
+    </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
