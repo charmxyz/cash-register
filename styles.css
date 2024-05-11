@@ -96,8 +96,13 @@ body {
     margin: 0 15px; /* Adds margin between them and aligns layout */
 }
   
-#change-drawer-text, #change-due-text {
+#change-drawer-text {
     font-size: 16px;
+}
+
+#change-due-text {
+    font-size: 16px;
+    white-space: pre;
 }
   
 #total-price-text {
